@@ -1,0 +1,51 @@
+{"intents": [
+    {"tag": "greeting",
+     "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day"],
+     "responses": ["Hello, thanks for visiting", "Hi there, how can I help?", "when in doubt ask tech support"]
+    },
+    {"tag": "goodbye",
+     "patterns": ["Bye", "See you later", "Goodbye"],
+     "responses": ["See you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon."]
+    },
+    {"tag": "thanks",
+     "patterns": ["Thanks", "Thank you", "That's helpful"],
+     "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {"tag": "laptop running slow",
+     "patterns": ["My Laptop is running slow", "My programs are taking time to load", "Boot speed is very slow"],
+     "responses": ["try closing useless background programs", "sometimes its just badluck", "please check your drivers updates", "try installing fresh os", "please wait,we will contact you soon"]
+    },
+    {"tag": "Laptop is running hot",
+     "patterns": ["I feel like my laptop is warming up fast", "laptop is hot while gaming", "laptop fans are making noise when hot"],
+     "responses": ["see if enough ventilation space is given to laptop when placed","Its common for it to get hot while gaming", "Try cleaning vents and fan of laptop", "please wait,we will contact you soon"]   
+    },
+    {"tag": "payments",
+     "patterns": ["Do you take credit cards?", "Do you accept Mastercard?", "Are you cash only?" ],
+     "responses": ["We accept VISA, Mastercard and AMEX", "We accept most major credit cards"]
+    },
+    {"tag": "laptop internet is slow",
+     "patterns": ["I cant watch videos due to slow internet on laptop", "My downloads are very slow", "How can i speed up my downloading speed?"],
+     "responses": ["close all downloads", "check if you got any updates downloading in background", "try using lan cable rather than wifi", "try restarting ur router", "please wait,we will contact you soon"]
+    },
+    {"tag": "Low storage",
+     "patterns": ["I want to free up storage","How can i increase my storage","" ],
+     "reponses": ["run disk cleanup manager to free some space", "Plz uninstall unused programs", "Try clearing temp files from run", "please wait,we will contact you soon"]
+    },
+    {"tag":"Physical damage",
+     "patterns": ["My laptop has suffered some scratches", "My display looks wierd", "can anything be done for physical damages sustained to laptop"],
+     "reponses": ["You can give it to service center if its covers in warranty or else have to pay for any changes to be done", "please wait,we will contact you soon"]   
+    },
+    {"tag":"Parts upgrade",
+     "patterns": ["What all should i consider to upgrade in laptop", "is there any new stuff i should add in laptop?"],
+     "reponses": ["You can upgrade ur ram and storage if you want", "please wait,we will contact you soon"]   
+    },
+    {"tag": "sentiment negative",
+     "patterns": ["Bad service", "Worst service ever experenced", "delayed support", "shit service"],
+     "responses": ["Sorry to hear that,we will try our best to get to ur problems asap"]   
+    },
+    {"tag": ["sentiment positive"],
+     "patterns": ["Good service", "solved all my problems", "best service", "Best customer service", "fast support"],
+     "responses": ["Thank you for choosing tech support"]
+    }
+]
+}
